@@ -2,7 +2,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F7E4D4;
     height: 100vh;
     width: 100%;
     font-weight: normal;
@@ -74,8 +73,27 @@ a {
     text-decoration: underline;
 }
 
-@media (max-width: 520px) {
+button {
+    width: 100%;
+    max-width: 280px;
+    height: 80px;
 
+    background-color: #467745;
+    border-radius: 100px;
+
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+    font-weight: normal;
+    color: #F7E4D4;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+@media (max-width: 520px) {
+    h2 {
+        font-size: 36px;
+    }
+   
     #form>div:first-child {
         justify-content: left;
     }
@@ -85,6 +103,7 @@ a {
         width: calc(100% - 40px);
     }
 
+    h2
     .subject,
     textarea {
         margin-left: 20px;
