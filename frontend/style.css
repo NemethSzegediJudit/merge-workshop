@@ -74,19 +74,20 @@ a {
 }
 
 button {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 21px;
     width: 100%;
     max-width: 280px;
+    margin: auto;
     height: 80px;
-
     background-color: #467745;
-    border-radius: 100px;
-
-    font-family: 'EB Garamond', serif;
-    font-size: 21px;
-    font-weight: normal;
-    color: #F7E4D4;
-    text-transform: uppercase;
+    color: #f7e4d4;
+    border-radius: 60px;
     letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: none;
 }
 
 @media (max-width: 520px) {
