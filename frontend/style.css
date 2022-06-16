@@ -74,6 +74,23 @@ a {
     text-decoration: underline;
 }
 
+button {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 21px;
+    max-width: 280px;
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    background-color: #467745;
+    color: #f7e4d4;
+    border-radius: 60px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: none;
+}
+
 @media (max-width: 520px) {
 
     #form>div:first-child {
